@@ -1,0 +1,8 @@
+Reproducibility tasks: 
+- Please read the paper and understand the overall approach and evaluation methodology. 
+- In particular, implement the algorithm based on the definition in Section 2, Shared-based Optimization (through query rewriting) in Section 4.1, 
+- and Pruning-based Optimization (using Hoeffding-Serfling inequality) in Section 4.2.
+- In evaluation, use the census data set. 
+- Set the user-specified query to include the married people, and the reference query to include unmarried people.
+- Use the K-L Divergence as the utility measure.
+- Find top-5 aggregate views by the utility measure. The plots should look like those illustrated in Figure 1. 
